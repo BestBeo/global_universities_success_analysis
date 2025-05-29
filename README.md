@@ -1,217 +1,189 @@
-# Global Analysis of Universities' Success 
+# Phân Tích Toàn Cầu Về Thành Công Của Các Đại Học
 
-Comprehensive global analysis of university success utilizing **Power BI, Excel, and SQL** integrating data from diverse ranking systems and criteria.
-
-
----
-
-![Screenshot 2024-04-26 173935](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/7db39916-0718-4ac3-a876-427efe3024dd)
-
-
-## How to Access Project Materials
-
-- [Link to Access the PowerPoint Presentation and Video Walkthrough](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
-  - Access the PowerPoint presentation for an in-depth understanding of the project. Additionally, watch the accompanying video walkthrough for a detailed explanation of key insights and methodologies.
-
-  [![PowerPoint Presentation](https://img.shields.io/badge/PowerPoint-FF0000?style=for-the-badge&logo=google-slides&logoColor=white)](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
+Phân tích toàn diện về thành công của các đại học trên toàn cầu, sử dụng **Power BI, Excel và SQL**, tích hợp dữ liệu từ nhiều hệ thống xếp hạng và tiêu chí khác nhau.
 
 ---
 
-## Overview
+![Ảnh chụp màn hình 2024-04-26 173935](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/7db39916-0718-4ac3-a876-427efe3024dd)
 
-The "University Success Analysis" is a comprehensive capstone project exploring the impact of ranking systems on universities. It aims to compare university rankings, evaluate the influence of ranking criteria, and analyze dynamic shifts in university metrics over time.
+## Cách Truy Cập Tài Liệu Dự Án
 
----
+- [Liên kết để truy cập Bài thuyết trình PowerPoint và Video hướng dẫn](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
+  - Truy cập bài thuyết trình PowerPoint để hiểu sâu hơn về dự án. Ngoài ra, hãy xem video hướng dẫn đi kèm để có giải thích chi tiết về các thông tin quan trọng và phương pháp thực hiện.
 
-## Significance
-
-This project holds significant implications for gaining insights into and enhancing the performance of universities. The structured dataset, combined with MECE analysis and Power BI visualizations, enables a comprehensive understanding of the factors influencing university success.
-
----
-
-# Project Components
-
-## 1. MECE Approach Documentation (Word)
-
-- **File Name:** MECE_Breakdown.docx
-- **Description:** Uncover the logic behind the process! This guide provides a closer look at how datasets are systematically analyzed using the MECE (Mutually Exclusive, Collectively Exhaustive) method.
-
-### Mutually Exclusive, Collectively Exhaustive (MECE) Approach
-
-![mece](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/0dea950f-d01b-4dc8-8714-4c542f43753e)
-
-*The MECE diagram outlines the structured approach applied in dissecting and evaluating the dataset. This method ensures that every component is distinct (Mutually Exclusive) while covering all possibilities (Collectively Exhaustive). It serves as the foundation for uncovering valuable insights and patterns across various dimensions, contributing to a comprehensive understanding of the data.*
-
-## 2. EDA University Data Analysis (Excel)
-
-- **File Name:** University_Success_Analysis_EDA.xlsx
-- **Description:** Conduct a thorough Exploratory Data Analysis (EDA) using SQL and Excel. This file includes data aggregation, visualizations, and insightful screenshots for a comprehensive understanding.
-
-## 3. Power BI University Success Analysis (Power BI)
-
-- **File Name:** PowerBI_University_Success_Analysis.pbix
-- **Description:** Harness the capabilities of Power BI! This file addresses problem statements, visualizes data, and constructs dashboards for a comprehensive view of university rankings.
-
-### Entity-Relationship (ER) Diagram
-
-<img src="https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/75ba0c75-490e-4733-bd5d-4574085c6fe9" alt="ER Diagram" width="1200">
-
-*The Entity-Relationship (ER) Diagram illustrates interconnected data entities, providing a visual guide to relationships between countries, universities, ranking systems, criteria, and their dynamic interactions in global higher education.*
-
-## 4. Project Presentation (PowerPoint)
-
-- **File Name:** Project_Presentation.pptx
-- **Description:** Commence a visual journey! This PowerPoint presentation provides an overview of the project, methodologies, and a detailed breakdown of each problem statement addressed during the exploratory data analysis (EDA) and Power BI phases.
-- [Link to Access the PowerPoint Presentation and Video Walkthrough](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
-
-*Access the PowerPoint presentation for a comprehensive overview of the project, and watch the accompanying video walkthrough for detailed insights and methodologies*
-
-## 5. Detailed Analysis Report (Word)
-
-- **File Name:** University_Success_Detailed_Analysis_Report.docx
-- **Description:** Explore the details! This comprehensive document guides you through every stage of the project, from data gathering and transformation to systematic breakdown, integration of tools, insights gained through exploratory data analysis (EDA), and implementation of solutions using Power BI.
+  [![Bài thuyết trình PowerPoint](https://img.shields.io/badge/PowerPoint-FF0000?style=for-the-badge&logo=google-slides&logoColor=white)](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
 
 ---
 
-## Dataset Description
+## Tổng Quan
 
-The dataset offers comprehensive insights into universities, their rankings, and associated metrics. Structured with key tables, it enables a detailed analysis, supporting informed decision-making in higher education.
-
-### Key Tables
-
-1. **Country:**
-   - Unique IDs and names of countries.
-
-2. **University:**
-   - Unique IDs, country IDs, and names of universities.
-
-3. **Ranking System:**
-   - Unique IDs and names of ranking systems.
-
-4. **Ranking Criteria:**
-   - Unique IDs, ranking system IDs, and names of criteria.
-
-5. **University Year:**
-   - University IDs, years, student metrics, and international student percentages.
-
-6. **University Ranking Year:**
-   - University IDs, ranking criteria IDs, years, and scores.
+"Phân Tích Thành Công Của Đại Học" là một dự án tổng hợp toàn diện nhằm khám phá tác động của các hệ thống xếp hạng đối với các đại học. Dự án hướng đến việc so sánh xếp hạng đại học, đánh giá ảnh hưởng của các tiêu chí xếp hạng, và phân tích sự thay đổi động trong các chỉ số đại học theo thời gian.
 
 ---
 
-## Project Objectives
+## Ý Nghĩa
 
-1. Evaluate and Compare University Rankings.
-2. Identify Key Factors Affecting Rankings.
-3. Conduct Regional Analysis.
-4. Explore Long-term Trends.
-5. Perform Correlation Analysis.
-6. Create Data Visualizations and Reports.
-7. Implement Predictive Modeling.
+Dự án này mang lại những giá trị quan trọng trong việc hiểu rõ và nâng cao hiệu suất của các đại học. Tập dữ liệu được cấu trúc, kết hợp với phân tích MECE và trực quan hóa Power BI, giúp hiểu toàn diện về các yếu tố ảnh hưởng đến thành công của đại học.
 
 ---
 
-## Insights from EDA and Power BI
+# Các Thành Phần Của Dự Án
 
-Explore key insights derived from the Exploratory Data Analysis (EDA) and Power BI phases, including:
+## 1. Tài Liệu Phương Pháp Tiếp Cận MECE (Word)
 
-1. Regional Patterns
-2. Impact of Criteria
-3. Temporal Changes
-4. Correlation Analysis
+- **Tên tệp:** MECE_Breakdown.docx
+- **Mô tả:** Khám phá logic đằng sau quy trình! Tài liệu này cung cấp cái nhìn chi tiết về cách phân tích tập dữ liệu một cách có hệ thống bằng phương pháp MECE (Mutually Exclusive, Collectively Exhaustive - Không Gối Lên Nhau, Bao Quát Hết).
+
+### Phương Pháp Tiếp Cận Mutually Exclusive, Collectively Exhaustive (MECE)
+
+![MECE](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/0dea950f-d01b-4dc8-8714-4c542f43753e)
+
+*Biểu đồ MECE phác thảo cách tiếp cận có cấu trúc được áp dụng trong việc phân tích và đánh giá tập dữ liệu. Phương pháp này đảm bảo mọi thành phần đều riêng biệt (Không Gối Lên Nhau) và bao quát tất cả các khả năng (Bao Quát Hết). Nó là nền tảng để khám phá các thông tin giá trị và các mẫu dữ liệu trên nhiều khía cạnh khác nhau, góp phần vào việc hiểu toàn diện dữ liệu.*
+
+## 2. Phân Tích Dữ Liệu Khám Phá (EDA) Đại Học (Excel)
+
+- **Tên tệp:** University_Success_Analysis_EDA.xlsx
+- **Mô tả:** Tiến hành Phân Tích Dữ Liệu Khám Phá (EDA) kỹ lưỡng bằng SQL và Excel. Tệp này bao gồm việc tổng hợp dữ liệu, trực quan hóa và các ảnh chụp màn hình cung cấp thông tin chi tiết để hiểu toàn diện.
+
+## 3. Phân Tích Thành Công Đại Học Bằng Power BI (Power BI)
+
+- **Tên tệp:** PowerBI_University_Success_Analysis.pbix
+- **Mô tả:** Khai thác sức mạnh của Power BI! Tệp này giải quyết các vấn đề, trực quan hóa dữ liệu và xây dựng các bảng điều khiển để có cái nhìn toàn diện về xếp hạng đại học.
+
+### Sơ Đồ Quan Hệ Thực Thể (ER Diagram)
+
+<img src="https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/75ba0c75-490e-4733-bd5d-4574085c6fe9" alt="Sơ Đồ ER" width="1200">
+
+*Sơ Đồ Quan Hệ Thực Thể (ER Diagram) minh họa các thực thể dữ liệu liên kết với nhau, cung cấp hướng dẫn trực quan về mối quan hệ giữa các quốc gia, đại học, hệ thống xếp hạng, tiêu chí và các tương tác động của chúng trong giáo dục đại học toàn cầu.*
+
+## 4. Bài Thuyết Trình Dự Án (PowerPoint)
+
+- **Tên tệp:** Project_Presentation.pptx
+- **Mô tả:** Bắt đầu hành trình trực quan! Bài thuyết trình PowerPoint này cung cấp tổng quan về dự án, các phương pháp thực hiện và phân tích chi tiết từng vấn đề được giải quyết trong giai đoạn phân tích dữ liệu khám phá (EDA) và Power BI.
+- [Liên kết để truy cập Bài thuyết trình PowerPoint và Video hướng dẫn](https://docs.google.com/presentation/d/1_Nie-2xwJp_82N4jTMboh_ebvtKNo8oI/edit?usp=sharing&ouid=107078492954401048445&rtpof=true&sd=true)
+
+*Truy cập bài thuyết trình PowerPoint để có cái nhìn tổng quan toàn diện về dự án và xem video hướng dẫn đi kèm để hiểu chi tiết về các thông tin và phương pháp thực hiện.*
+
+## 5. Báo Cáo Phân Tích Chi Tiết (Word)
+
+- **Tên tệp:** University_Success_Detailed_Analysis_Report.docx
+- **Mô tả:** Khám phá chi tiết! Tài liệu toàn diện này hướng dẫn bạn qua từng giai đoạn của dự án, từ thu thập và biến đổi dữ liệu đến phân tích có hệ thống, tích hợp công cụ, thông tin chi tiết từ phân tích dữ liệu khám phá (EDA), và triển khai giải pháp bằng Power BI.
 
 ---
 
-## Power BI Dashboards
+## Mô Tả Tập Dữ Liệu
 
-Developed four detailed Power BI dashboards to provide a clear and thorough visual representation of university rankings.
+Tập dữ liệu cung cấp thông tin toàn diện về các đại học, xếp hạng của chúng và các chỉ số liên quan. Được cấu trúc với các bảng chính, tập dữ liệu hỗ trợ phân tích chi tiết, giúp đưa ra quyết định sáng suốt trong giáo dục đại học.
 
-### **1. Country Analysis Dashboard:**
-   - Visualizes ranking trends and metrics based on countries.
+### Các Bảng Chính
+
+1. **Country (Quốc gia):**
+   - ID duy nhất và tên của các quốc gia.
+
+2. **University (Đại học):**
+   - ID duy nhất, ID quốc gia và tên của các đại học.
+
+3. **Ranking System (Hệ thống xếp hạng):**
+   - ID duy nhất và tên của các hệ thống xếp hạng.
+
+4. **Ranking Criteria (Tiêu chí xếp hạng):**
+   - ID duy nhất, ID hệ thống xếp hạng và tên của các tiêu chí.
+
+5. **University Year (Năm của đại học):**
+   - ID đại học, năm, chỉ số sinh viên và tỷ lệ sinh viên quốc tế.
+
+6. **University Ranking Year (Xếp hạng đại học theo năm):**
+   - ID đại học, ID tiêu chí xếp hạng, năm và điểm số.
+
+---
+
+## Mục Tiêu Dự Án
+
+1. Đánh giá và so sánh xếp hạng của các đại học.
+2. Xác định các yếu tố chính ảnh hưởng đến xếp hạng.
+3. Tiến hành phân tích theo khu vực.
+4. Khám phá xu hướng dài hạn.
+5. Thực hiện phân tích tương quan.
+6. Tạo trực quan hóa dữ liệu và báo cáo.
+7. Triển khai mô hình dự đoán.
+
+---
+
+## Thông Tin Chi Tiết Từ EDA và Power BI
+
+Khám phá các thông tin quan trọng thu được từ giai đoạn Phân Tích Dữ Liệu Khám Phá (EDA) và Power BI, bao gồm:
+
+1. Các mẫu khu vực
+2. Tác động của tiêu chí
+3. Thay đổi theo thời gian
+4. Phân tích tương quan
+
+---
+
+## Bảng Điều Khiển Power BI
+
+Đã phát triển bốn bảng điều khiển Power BI chi tiết để cung cấp biểu diễn trực quan rõ ràng và toàn diện về xếp hạng đại học.
+
+### **1. Bảng Điều Khiển Phân Tích Quốc Gia:**
+   - Trực quan hóa xu hướng xếp hạng và chỉ số theo quốc gia.
      
-  ![country_analysis](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/874ec900-3f7f-4504-bb34-02288e6f754e)
+  ![Phân tích quốc gia](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/874ec900-3f7f-4504-bb34-02288e6f754e)
 
 ---
 
-### **2. University Analysis Dashboard:**
-   - Offers insights into individual university performance and metrics.
+### **2. Bảng Điều Khiển Phân Tích Đại Học:**
+   - Cung cấp thông tin chi tiết về hiệu suất và chỉ số của từng đại học.
      
-![university_analysis](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/0dc87181-7a65-4609-a81b-3b0b5f732ddd)
-
+  ![Phân tích đại học](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/0dc87181-7a65-4609-a81b-3b0b5f732ddd)
 
 ---
 
-### **3. Ranking System Analysis Dashboard:**
-   - Compares and contrasts rankings across different systems.
+### **3. Bảng Điều Khiển Phân Tích Hệ Thống Xếp Hạng:**
+   - So sánh và đối chiếu xếp hạng giữa các hệ thống khác nhau.
      
-![ranking_analysis](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/62ad3be3-720c-41a6-bbaa-27b7477ecc67)
+  ![Phân tích xếp hạng](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/62ad3be3-720c-41a6-bbaa-27b7477ecc67)
 
 ---
 
-### **4. Yearly Analysis Dashboard:**
-   - Examines temporal changes in university metrics and rankings.
+### **4. Bảng Điều Khiển Phân Tích Theo Năm:**
+   - Kiểm tra các thay đổi theo thời gian trong chỉ số và xếp hạng của đại học.
      
-![yearly_analysis](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/a0f3a95b-f873-467c-93fb-392664ed1705)
-
-
----
-
-## Project Execution
-
-Seamlessly navigate the project with these simple steps:
-
-### Power Up with Power BI:
-
-1. **Launch Power BI Desktop:**
-   - Open Power BI Desktop.
-   - Explore and open the `PowerBI_University_Success_Analysis.pbix` file.
-
-### Dive into Data with Excel:
-
-2. **Explore Data with Excel:**
-   - Use Microsoft Excel for in-depth analysis.
-   - Open `EDA_University_Success_Analysis.xlsx` to visualize and explore data.
-
-### Uncover Project Insights:
-
-3. **Detailed Project Overview:**
-   - Gain profound insights and methodologies.
-   - Access `University_Success_Detailed_Analysis_Report.docx` for a deep understanding of the project lifecycle, covering data collection, transformation, MECE breakdown, tool integration, EDA insights, and Power BI solutions.
+  ![Phân tích theo năm](https://github.com/virajbhutada/PowerBI-Projects/assets/143819712/a0f3a95b-f873-467c-93fb-392664ed1705)
 
 ---
 
-## Feedback, Contributions, and Git Clone
+## Thực Thi Dự Án
 
-Your feedback is invaluable! If you have suggestions, or questions, or would like to contribute to the "University Success Analysis" project, feel free to:
+Dễ dàng điều hướng dự án với các bước đơn giản sau:
 
-- **Open an Issue:**
-  - For bug reports or feature requests, [open an issue](https://github.com/virajbhutada/Global-Universities-Success-Analysis/issues).
+### Khởi động với Power BI:
 
-- **Submit a Pull Request:**
-  - Contribute enhancements or fixes by [submitting a pull request](https://github.com/virajbhutada/Global-Universities-Success-Analysis/pulls).
+1. **Khởi chạy Power BI Desktop:**
+   - Mở Power BI Desktop.
+   - Khám phá và mở tệp `PowerBI_University_Success_Analysis.pbix`.
 
-- **Reach Out:**
-  - You can [reach out via email](virajnbhutada24@gmail.com).
+### Khám Phá Dữ Liệu với Excel:
 
-### Git Clone
+2. **Khám Phá Dữ Liệu với Excel:**
+   - Sử dụng Microsoft Excel để phân tích chuyên sâu.
+   - Mở `EDA_University_Success_Analysis.xlsx` để trực quan hóa và khám phá dữ liệu.
 
-To clone the repository and access the project files locally, use the following command:
+### Khám Phá Thông Tin Chi Tiết Dự Án:
+
+3. **Tổng Quan Chi Tiết Dự Án:**
+   - Tìm hiểu sâu về các thông tin và phương pháp thực hiện.
+   - Truy cập `University_Success_Detailed_Analysis_Report.docx` để hiểu rõ toàn bộ vòng đời dự án, từ thu thập dữ liệu, biến đổi, phân tích MECE, tích hợp công cụ, thông tin chi tiết từ EDA và giải pháp Power BI.
+
+---
+
+### Sao Chép Kho Lưu Trữ
+
+Để sao chép kho lưu trữ và truy cập các tệp dự án cục bộ, sử dụng lệnh sau:
 
 ```bash
-git clone https://github.com/virajbhutada/Global-Universities-Success-Analysis.git
+git clone https://github.com/BestBeo/global_universities_success_analysis.git
 ```
----
-
-## Project Involvement and Customization
-
-Your active engagement enhances the quality of this project, and your valuable insights are truly appreciated! Your contributions contribute to the excellence of the "University Success Analysis."
 
 ---
 
-## Connect With Me 🌐
-
-**[![LinkedIn](https://img.shields.io/badge/LinkedIn-Viraj%20Bhutada-blue?logo=linkedin)](https://www.linkedin.com/in/virajnbhutada24/)**
-
----
-
-**Explore, Analyze, and Contribute! 🌐📊**
+**Khám Phá, Phân Tích và Đóng Góp! 🌐📊**
